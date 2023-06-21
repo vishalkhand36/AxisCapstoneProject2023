@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite (0)]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="Edge Test(failed)" verbose="0">
+    <parameter name="Port" value="6666"/>
+    <classes>
+      <class name="org.TestCase.AE.AETestCase2">
+        <methods>
+          <include name="setup1"/>
+          <include name="scenarioDemo"/>
+        </methods>
+      </class> <!-- org.TestCase.AE.AETestCase2 -->
+    </classes>
+  </test> <!-- Edge Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Chrome Test(failed)" verbose="0">
+    <parameter name="Port" value="5555"/>
+    <classes>
+      <class name="org.TestCase.AE.AETestCase2">
+        <methods>
+          <include name="setup1"/>
+          <include name="scenarioDemo"/>
+        </methods>
+      </class> <!-- org.TestCase.AE.AETestCase2 -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->

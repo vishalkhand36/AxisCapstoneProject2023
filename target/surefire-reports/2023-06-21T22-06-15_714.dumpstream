@@ -1,0 +1,4 @@
+# Created at 2023-06-21T22:06:16.434
+Boot Manifest-JAR contains absolute paths in classpath 'D:\New folder\AxisCapstoneProject2023\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
