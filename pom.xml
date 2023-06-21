@@ -30,7 +30,7 @@
                             <suiteXmlFile>testngmain2.xml</suiteXmlFile>
                             <suiteXmlFile>testngmain3.xml</suiteXmlFile>
                             <suiteXmlFile>testngmain4.xml</suiteXmlFile>
-                            <suiteXmlFile>testngmain5.xml</suiteXmlFile>
+                            <suiteXmlFile>testngmain5.xml</suiteXmlFile>                     
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
